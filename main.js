@@ -6,18 +6,17 @@ el: `#root`,
 
 data:{
     message: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam omnis porro asperiores inventore assumenda, aperiam, non, ullam obcaecati quo ex facere magni deleniti nostrum eos expedita et harum earum. Atque.`,
-    image: `https://picsum.photos/200`
+    image: `https://picsum.photos/200`,
+    color: `text-danger`
 },
-
-/*
 methods: {
     click: function (){
 
-       return  this.message = `text-primary`
+       return  this.color = `text-primary`
 
     }
 },
-*/
+
 //template: '<div>{{ message }}</div>'
 
 })
