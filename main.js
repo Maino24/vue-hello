@@ -1,4 +1,4 @@
-var root = new Vue({
+var app = new Vue({
 
 el: `#root`,
 
@@ -22,3 +22,24 @@ methods: {
 })
 
 //root.message = 'Hello!'
+
+
+
+/* CORREZIONE ALE */
+
+/*
+var app = new Vue({
+
+    el: `#app`,
+    data: {
+        titolo: `Vue cicli`;
+        classeDinamica: `text-primary`,
+        linkImmagine: `https://picsum.photos/200`
+    },
+    methods: {
+
+    }
+
+
+})
+*/
